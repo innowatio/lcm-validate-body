@@ -3,6 +3,10 @@
   "version": "1.0.0",
   "description": "Middleware for validating the request body using a json-schema",
   "main": "lib/index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/innowatio/lcm-validate-body.git"
+  },
   "scripts": {
     "build": "babel src --out-dir lib",
     "clean": "rimraf lib coverage",
